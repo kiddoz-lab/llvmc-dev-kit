@@ -36,7 +36,7 @@ src/llvmc/
 
 ## Setup
 
-1. Download or clone LLVM-DevKit
+1. **[Download LLVMC API v1](https://github.com/Seigh-sword/llvmc-dev-kit/releases/tag/Version1)**
 2. Include header in your project;
 
    ```cpp
