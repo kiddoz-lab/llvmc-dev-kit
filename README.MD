@@ -36,47 +36,8 @@ src/llvmc/
 
 ## Setup
 
-1. **[Download LLVMC API v1](https://github.com/Seigh-sword/llvmc-dev-kit/releases/tag/Version1)**
-2. Include header in your project;
-
-   ```cpp
-   #include "llvmc/llvmc.h"
-   ```
-
-   **just, downlaod and extract the kit and, use it on your next coding language project.**
-
-3. Set DevKit location;
-
-```cpp
- llvmc::home("C:/path/to/llvm-kit/");
- ```
-
- 4. compile LLVM IR;
- ```cpp
-  llvmc::O3("test.ll", "test.exe");
-```
-
-**OR**
-
-```cpp
- llvmc::cmd("test.ll -o test.exe -O3");
-```
-
-**both** do the **same** but... still 😜
-
-5. are you scared you missed any files! 😨
-
-```cpp
-if (!llvmc::validate()) {
-    // this thingy... will do the trick
-}
-
-```
-
-
----
-
-**thats all!, bye guys 👋**
+**[Download LLVMC API v1](https://github.com/Seigh-sword/llvmc-dev-kit/releases/tag/Version1)**
+**thats it... and now you have a kit for your next project**
 
 ## licence
 
