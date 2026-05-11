@@ -12,8 +12,8 @@ No PATH setup needed.
 ## Structure
 
 llvm-kit/
-- clang.exe
-- clang++.exe
+- llvmc.exe
+- llvmc++.exe
 - llc.exe
 - opt.exe
 - llvm-dis.exe
